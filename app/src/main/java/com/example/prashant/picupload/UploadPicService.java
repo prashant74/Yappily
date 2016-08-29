@@ -20,8 +20,6 @@ import java.net.URL;
  * Created by prashant on 29/08/16.
  */
 public class UploadPicService extends IntentService {
-
-    private String UPLOAD_URL = "http://fakeurl.com";
     private String name;
     private String KEY_NAME = "name";
     private int notificationId = 1;
